@@ -1,4 +1,4 @@
-package lession6;
+package lession6_1;
 
 import java.security.SecureRandom;
 

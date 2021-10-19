@@ -1,4 +1,4 @@
-package lession6;
+package lession6_1;
 
 public class Animal {
     private String name;
@@ -10,10 +10,12 @@ public class Animal {
     }
 
     public double getSpeed() {
+
         return speed;
     }
 
     public void setSpeed(double speed) {
+
         this.speed = speed;
     }
 

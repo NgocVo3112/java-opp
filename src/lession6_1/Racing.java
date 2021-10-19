@@ -1,4 +1,4 @@
-package lession6;
+package lession6_1;
 
 import java.security.SecureRandom;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ public class Racing {
         animalList.add(dog);
         animalList.add(horse);
         animalList.add(tiger);
-        double max = dog.getSpeed();
+        double max = 0;
         String win_name = null;
         for (Animal animal : animalList){
             if (max < animal.getSpeed()) {
